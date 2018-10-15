@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+}
+
+group 'com.hektorks.pointofsale'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation('org.junit.jupiter:junit-jupiter-api:5.1.0')
+    testCompile('org.mockito:mockito-all:1.8.4')
+    testRuntimeOnly('org.junit.jupiter:junit-jupiter-engine:5.1.0')
+}
